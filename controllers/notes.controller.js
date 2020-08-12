@@ -11,7 +11,7 @@ notesCtrl.createNewNote = async (req, res) => {
     await newNote.save();
     res.send('new note to console')
 }
-// just for git
+
 notesCtrl.renderNotes = async (req, res) => {
     const notes = await Note.find();
     res.render('notes/all-notes', { notes });

@@ -1,7 +1,7 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
-
+//just for git
 //Initalization
 const app = express();  //app es el servidor --
 

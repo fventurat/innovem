@@ -31,7 +31,7 @@ response.on('end', function () {
     dataJSON = function(buffer2) {
         return JSON.parse(buffer2);
     }
-    console.log(dataJSON);      //yo - it works fine                  // just for git
+    console.log(dataJSON);      //yo - it works fine
     
     // END of code of Fidel Ventura******************************
 

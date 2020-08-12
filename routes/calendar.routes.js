@@ -6,5 +6,3 @@ const { renderIndicator } = require('../controllers/calendar.controller')
 router.get('/calendar/indicators', renderIndicator);
 
 module.exports = router;
-
-// just for git

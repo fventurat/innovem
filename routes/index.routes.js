@@ -9,4 +9,3 @@ router.get('/about', renderAbout);
 
 module.exports = router;
 
-// just for git

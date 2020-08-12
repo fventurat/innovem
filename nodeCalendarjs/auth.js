@@ -7,7 +7,7 @@ var headers = {
   'Authorization': 'Client '+process.env.INNOVEM_KEY
  
 };
-// just for git
+
 var buffer = '';//setting variable to store response 
 
 //setting options to compose the URL path 

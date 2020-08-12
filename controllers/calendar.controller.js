@@ -9,6 +9,6 @@ indicatorCtrl.renderIndicator = (req, res) => {
    res.render('calendar/indicators', { indicators });
    //res.send(indicators);
 }
-// just for git
+
 
 module.exports = indicatorCtrl;

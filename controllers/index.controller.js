@@ -10,5 +10,5 @@ indexCtrl.renderIndex = (req, res) => {
 indexCtrl.renderAbout = (req, res) => {
     res.render('about')
 }
-// just for git
+
 module.exports = indexCtrl;

@@ -20,4 +20,3 @@ UserSchema.methods.matchPassword = function (password) {
 
 module.exports = model('User', UserSchema);
 
-// just for git
