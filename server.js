@@ -3,7 +3,7 @@ const exphbs = require('express-handlebars');
 const path = require('path');
 
 //Initalization
-const app = express();  //app es el servidor
+const app = express();  //app es el servidor --
 
 
 //Settings

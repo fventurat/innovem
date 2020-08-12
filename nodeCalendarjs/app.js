@@ -54,5 +54,4 @@ var req = http.get(auth.getCalendarId, callback).end();
 var req = http.get(auth.getCalendarCountry, callback).end(); */
 indicator = http.get(auth.getCalendarIndicator_BLA, callbackPINPIN).end();  
 
-//code added by fidel//////////////
-//console.log(callbackPINPIN());
+// just for git

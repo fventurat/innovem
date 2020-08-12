@@ -19,3 +19,5 @@ UserSchema.methods.matchPassword = function (password) {
 }  // true or false (match - do not match)
 
 module.exports = model('User', UserSchema);
+
+// just for git

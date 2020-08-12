@@ -3,7 +3,7 @@ const { INNOVEM_KEY } = process.env;
 var http = require('http');
 const te = require('tradingeconomics'); //yo
 var headers = {
-    'Accept': 'Application/json', // yo - originally xml
+    'Accept': 'Application/json', // yo - originally xml - added for git
     'Authorization': 'Client '+process.env.INNOVEM_KEY//'OAuth2 YOUR_TOKEN_VALUE'
 };
 var buffer = '';
